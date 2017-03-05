@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29-ott-2015, 12.02.12
+    Author     : maurizio.prochilo
+*/
+@charset "utf-8";
+ #fotone .hp_content{
+        font-size:1.2em;
+        height: auto;
+    }
+    #fotone .hp_testo{
+        font-size:0.75em;
+    }
+    /* FINE Fotone HP */
+    .tab img {
+        width: 93% !important;
+        text-align:center !important;
+        padding-bottom:10px;
+    }
+    #viaggiare img {
+        width: 390px;
+    }
+    .viaggiaretesto{
+        display: none;
+    }
+    /* stilizza flash rosso */
+    #flash-rosso .hp_titolo {
+        font-size: 1.1em;
+        font-weight:normal;
+    }
+    /* FINE stilizza flash rosso */
+
+    /* FINE HOMEPAGE */
+    #footer{
+        text-align:center;
+    }
+    /* stilizza ricerca */
+    #mese{
+        margin-bottom: 15px;
+    }
+    /* FINE stilizza ricerca */
+    #logo{
+        text-align:center;
+    }
+    #lingue{
+        font-size:0.8em;
+    }
+    #lingue ul{
+        list-style:none;
+    }
+    #lingue ul li{
+        display:inline;
+    }
+    #ricerca_sito{
+        margin-top: 0px;
+        margin-bottom: 5px;
+        padding:0 0 0 6px;
+    }
+    #boxUtility {
+        margin-bottom:20px;
+    }
+    .social_network {
+        display: block;
+        float: none;
+    }
+
+    .immaginetab {
+        height: 166px;
+    }
+
+    #custom_html img{
+        width:100%;
+    }

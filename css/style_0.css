@@ -1,0 +1,474 @@
+body{
+    text-align:left;
+}
+.flag{
+    float:right;
+}
+.logo{
+    float:left;
+    padding-right:9px;	
+    padding-left:7px;
+}
+#logo_iic img{
+    margin-left:32px;
+    float:left;
+}
+.logo_sede{
+    border-left: 2px solid #ccc;
+    float:left;
+    padding-left:9px;
+    margin-left: -15px;
+}
+#anagrafica_home .glyphicon-envelope{
+    margin-left:5px;
+}
+.colonna_centro .hp_testo{
+    padding-right:5px;
+}
+.colonna_centro img{
+    float:left;
+    margin-right:20px;
+    margin-left:10px;
+}
+.background{
+    float: left;
+}
+.blu .hp_testata{
+    padding-left:9px;
+}
+.elenco_hp .hp_item img{
+    float:left;
+    margin-right:15px;
+}
+.menuSxMinistro li{
+    float: left;
+    border-right: 1px solid #FFF;
+}
+.menuSxMinistro li{
+    float: left;
+    border-right: 1px solid #FFF;
+}
+.menuSxMinistro .no_border{
+    border-right:none;
+    padding-right:1px;
+}
+.menuSxMinistro span.btn_border {
+    left: 0;
+}
+.menuSxMinistro span.btn_border_bottom {
+    left: 0;
+}
+#fotone .hp_titolo{
+    padding-left: 10px;
+}
+#fotone .hp_testo{
+    padding-left: 10px;
+}
+#social {
+    text-align: right;
+}
+span.fallow {
+    padding-right: 13px;
+}
+#resize_font{
+    text-align:right;
+    float:right;
+    padding:20px 10px 0 10px;
+}
+.navbar-form{
+    padding-right:0;
+}
+.hp_viewall{
+    float: right;;
+    padding: 5px 20px 0px 0px;
+}
+#boxUtility{
+    text-align: right;
+    float:right;
+    padding-right: 7px;
+}
+#ricerca_sito{
+    float:right;
+    padding-right:0;
+}
+#lingue{
+    float: right;
+}
+.social_network .share{
+    padding-right:5px;
+}
+.social_share a{
+    margin-left: 5px;
+    float: right;
+}
+.follow {
+    margin-right: 19px;
+}
+.social_follow a{
+    margin-left: 5px;
+}
+#header .glyphicon {
+    float:right;
+    margin-right:9px;
+}
+#submenunav .glyphicon{
+    float:right;
+    margin-right:10px;
+}
+#main_menu ul li a{
+    padding:8px 15px 8px 0px;
+
+}
+#main_menu .nav li a{
+    float:left;
+}
+#main_menu{
+    padding-left:0px;
+}
+#titolo_aree {
+    float: left;
+}
+#nav_2{
+    float: left;
+}
+#main_menu_tag{
+    padding-left:0;
+}
+#info_aggiornamento{
+    text-align:right;
+}
+p.tags_articolo {
+    margin-right: 2px;
+}
+.share .addthis_default_style{
+    float: right;
+}
+#articolo_dx{
+    float:left;
+}
+.last-news .image{
+    float: left;
+    margin-right: 15px;
+}
+
+#articolo_sx ul li ul li a{
+    padding-left: 20px;
+}
+.frecciaNavFoto{
+    padding-left: 0;
+}
+.frecciaNavFoto .glyphicon {
+    float:left;
+    margin-right:0px;
+}
+.fotosize_thumb{
+    float: left;
+}
+.frecciaPrev {
+    left:0; 
+}
+.frecciaNext {
+    right:0; 
+}
+.ricerca_didascalia{
+    float:left;
+}
+.form-horizontal .form-group{
+    margin-left: 5px !important;
+}
+.align_btn{
+    text-align: right;
+}
+#ricerca_button {
+    margin-right: 5px;
+}
+#footer .nav > li > a > img{
+    margin-right: 10px;
+}
+#menu_04{
+    padding-left:0;
+}
+#contentinfo_dx p{
+    text-align:right;	
+}
+li#mappa1-link1 {
+    left: 267px;
+}
+li#mappa1-link26 {
+    left: 3px;
+}
+
+li#mappa1-link27 {
+    left: 3px;
+}
+li#mappa1-link2 {
+    left: 290px;
+}
+li#mappa1-link3 {
+    left: 570px;
+}
+li#mappa1-link4 {
+    left: 3px;
+}
+li#mappa1-link5 {
+    left: 272px;
+}
+li#mappa1-link6 {
+    left: 570px;
+}
+li#mappa1-link7 {
+    left: 290px;
+}
+li#mappa1-link8 {
+    left: 290px;
+}
+li#mappa1-link9 {
+    left: 96px;
+}
+li#mappa1-link10 {
+    left: 290px;
+}
+li#mappa1-link12 {
+    left: 484px;
+}
+li#mappa1-link13 {
+    left: 3px;
+}
+li#mappa1-link14 {
+    left: 196px;
+}
+li#mappa1-link15 {
+    left: 386px;
+}
+li#mappa1-link16 {
+    left: 570px;
+}
+li#mappa1-link17 {
+    left: 3px;
+}
+li#mappa1-link18 {
+    left: 196px;
+}
+li#mappa1-link19 {
+    left: 386px;
+}
+li#mappa1-link20 {
+    left: 570px;
+}
+li#mappa1-link21 {
+    left: 3px;
+}
+li#mappa1-link22 {
+    left: 196px;
+}
+li#mappa1-link23 {
+    left: 386px;
+}
+li#mappa1-link24 {
+    left: 570px;
+}
+#articolo_centro blockquote{
+    border-left: none;
+}
+#ricerca_button{
+    margin-left: 0px;
+}
+#searchcontrol p i{
+    margin-right: 5px;
+}
+.google-result-text{
+    padding-left: 20px;
+}
+
+.label-date-foto{
+    left: 10px;
+}
+.elenco-listaarticoli .dettagli_articolo_cont{ margin: 0px 5px 0px 0px !important;}
+.elenco-listaarticoli .dettagli_articolo_label{ margin: 0px 5px 0px 0px !important;}
+
+
+/* --------------- INIZIO media query ------------------*/
+@media (min-width: 991px) and (max-width: 1200px){
+    #logo_iic img{
+        margin-left: 27px;
+    }
+
+}
+@media (max-width: 1200px){
+    #ricerca_button{
+        margin-left: 0px;
+    }
+    #reset_button{
+        margin-left: -7px;
+    }
+    #flash-rosso{
+        text-align:left;
+    }
+    #resize_font {
+        padding-right: 30px;
+    }
+}
+@media (max-width: 990px){
+    #viaggiare img{
+        float:left;
+        margin-right:20px;
+    }
+    .pad_top #ricerca_button{
+        margin-left:7px;
+    }
+    .pad_top .form-group{
+        padding-right:95px;
+    }
+    #numero{
+        padding-right: 150px !Important;
+    }
+    #text_search {
+        padding-right: 50px !important;
+    }
+    #argomento{
+        margin-right: 150px;
+    }
+    #ricerca_button {
+        margin-left: 0px;
+    }
+    #centro{
+        left:0%;
+    }
+    #sinistra{
+        left:0%;
+    }
+}
+@media (max-width: 767px){
+    #boxUtility {
+        text-align: left; 
+        float: left; 
+    }
+    .navbar-toggle {
+        float:left;
+        margin-right: 0px;
+    }
+    #nav_laterale .glyphicon {
+        float:right;
+        margin-right:10px;
+    }
+    #articolo_sx{
+        margin-right: -7px;
+    }
+    #articolo_sx{
+        padding-left: 0px;
+        padding-right: 7px;
+    }
+    #articolo_sx .container-fluid{
+        margin-left:21px;
+    }
+    #ricerca_sito{
+        margin-top: -11px;
+        float:left;
+    }
+    #lingue{
+        float:right;
+        margin-top: 28px !important;
+        margin-right: 7px;
+    }
+    .social_follow {
+        text-align: center;
+    }
+    .logo_sede{
+        padding-left: 25px;
+    }
+    #custom_html img {
+        padding-left: 20px;
+    }
+    #resize_font{
+        text-align:left;
+        padding-left:13px;
+    }
+    #lingue ul{
+        float:right;
+    }
+    #lingue ul li{
+        padding-left:7px;
+    }
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+        margin-right:0;
+        margin-left: 1px;
+    }
+    div#nav_laterale {
+        margin-left: -7px;
+    }
+    #logo_iic img{
+        text-align:center;
+        float:none;
+        margin-left:0;
+    }
+
+}
+
+@media (min-width: 767px) and (max-width: 991px){
+
+    #logo_iic{
+        float:left;
+    }
+    #social {
+        text-align: right;
+        float:right;
+    }
+    #footer{
+        text-align:left;
+    }
+    #lingue{
+        margin-top: 17px;  
+        float:left;
+    }
+    #lingue ul{
+        float: left;
+        padding-left: 7px;        
+    }
+    #ricerca_button {
+        margin-right: 9px;
+    }
+    #reset_button{
+        margin-left: 0px;
+        margin-right: 9px;
+    }
+    #ricerca_sito{
+        margin-top: 0px;
+        float:right;
+
+    }
+    #resize_font{
+        text-align: right;
+        padding-right: 0px;
+    }
+    #search_btn{
+        float:right;
+        margin-right: 6px;
+
+    }
+}
+
+@media (max-width: 330px){
+    #resize_font {
+        padding-right: 0px;
+        padding-left: 20px;
+    }
+    #lingue ul{
+        margin-top:15px;
+    }
+    #ricerca_sito{
+        float:left;
+    }
+    .social_network {
+        text-align: left;
+    }
+    .navbar-form{
+        padding-left:0;
+    }
+}
+
+.newshome .last-news{
+    float:left;
+}
+.eventi .btn{
+    margin-right: 20px;
+}
