@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://http://www.consfortaleza.org.br -->
+<html >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        	<!--<base href="http://www.consfortaleza.org.br">--><base href="."/>
+            <!-- xmlns="http://www.w3.org/1999/xhtml" xml:lang="it-it" lang="it-it" -->
+
+	<title> 
+                <?php carregaTitulo() ?>
+    </title>
+     <?php $home = get_template_directory_uri();?>
+	<link href="http://www.consfortaleza.org.br" rel="canonical">
+	<meta property="og:title" content="Consolato - Fortaleza">
+	<meta property="og:url" content="http://www.consfortaleza.org.br">
+	<meta property="og:description" content="Consolato - Fortaleza">
+	<meta property="og:type" content="website">
+	<meta property="twitter:title" content="Consolato - Fortaleza">
+	<meta property="twitter:url" content="http://www.consfortaleza.org.br">
+	<meta property="twitter:description" content="Consolato - Fortaleza">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta property="og:title" content="Veduta della Città di Fortaleza">
+	<meta property="og:url" content="http://www.consfortaleza.org.br">
+	<meta property="og:description" content="Benvenuti al Nuovo Sito Web del Consolato d’Italia in Fortaleza">
+	<meta property="og:image" content="<?= $home ?>/img/2016/07/recife_01.jpg">
+	<meta property="twitter:title" content="Veduta della Città di Fortaleza">
+	<meta property="twitter:url" content="http://www.consfortaleza.org.br">
+	<meta property="twitter:description" content="Benvenuti al Nuovo Sito Web del Consolato d’Italia in Fortaleza">
+	<meta property="twitter:image" content="<?= $home ?>/img/recife_01.jpg">
+	<meta property="twitter:card" content="summary">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="shortcut icon" href="http://www.consrecife.esteri.it/Consolato_Recife/templates/sede/favicon.png" type="image/png">
+         <link href="<?= $home ?>/assets/css/bootstrap_0.css" rel="stylesheet" type="text/css">
+         <script id="twitter-wjs" src="<?= $home ?>/assets/css/widgets.js"></script>
+         <script async="" src="<?= $home ?>/assets/js/analytics.js"></script>
+         <script src="<?= $home ?>/assets/js/jquery.js"></script>
+         <script src="<?= $home ?>/assets/js/bootstrap.min.js"></script>
+         <script src="<?= $home ?>/assets/js/mae.js"></script>
+         <script src="<?= $home ?>/assets/js/venobox.min.js"></script>
+         <link href="<?= $home ?>/assets/css/menu.css" rel="stylesheet" type="text/css">
+         <link href="<?= $home ?>/assets/css/style_0.css" rel="stylesheet" type="text/css">        
+         <link href="<?= $home ?>/assets/css/style_base.css" rel="stylesheet" type="text/css">
+         <link href="<?= $home ?>/assets/css/print.css" rel="stylesheet" type="text/css" media="print">
+         <link href="<?= $home ?>/assets/css/venobox.css" rel="stylesheet" type="text/css">
+    <?php wp_head();?>
+
+
+
+
+    </head>
+    <body dir="ltr">
+        <div id="testata_esteri">
+            <div class="container"> 
+                <div id="logo_ministero" class="col-md-12 col-sm-8 col-xs-24" role="banner">
+
+                    <h1> 
+
+                        <p id="logo_farnesina">Farnesina</p>
+                        <p id="riga_1_farnesina">Ministero degli Affari Esteri<br>
+                            e della Cooperazione Internazionale</p>
+
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="up">
+            <div class="container">     
+                <div class="flag">
+                    <img src="<?=$home?>/img/flag_flag.svg" alt="consolato_recife">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div id="header" class="col-md-24" role="heading">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-3 stellone">
+                            <a href="http://www.consfortaleza.org.br" title="Consolato d&#39;Italia Recife (Pernambuco)">
+                                <img src="<?= $home ?>/img/stellone_ministero_ok.svg" alt="Consolato d&#39;Italia Fortaleza (Ceará)">
+                            </a>
+                        </div>
+
+                        <div class="logo_sede" role="banner">
+                            <a href="http://www.consfortaleza.org.br" title="consolato_fortaleza">
+                            <!-- -->
+                                <p id="titolo_generico">Consolato d'Italia</p>
+                                <p id="nome_sede" class="nome_iic">Fortaleza (Ceará)</p> 
+                           
+                            </a>
+                        </div>
+                        
+                        <div id="boxUtility">
+                            <div class="row">
+                                <!-- font resize -->
+                                <div id="resize_font">
+                                    <div class="row"> <a class="zoomin" href="javascript:  ridimTesto(1);" title="Aumenta la dimensione del testo"> 
+                                      <!-- <img src="/mae/images/ZoomIn.gif" alt="Aumenta la dimensione del testo"> --> 
+                                        </a> <a class="zoomout" href="javascript: ridimTesto(-1);" title="Riduci la dimensione del testo"> 
+                                        <!-- <img src="/mae/images/ZoomOut.gif" alt="Riduci la dimensione del testo"> --> 
+                                        </a> </div>
+                                </div>
+                                <!-- FINE font resize -->
+                                <!--ricerca-->
+                                <div id="ricerca_sito" role="search">
+                                    <form class="navbar-form" role="search" action="http://www.consfortaleza.org.br/search">
+                                        <div id="form_inline" class="form-group col-xs-18">
+                                            <label for="cerca_q" class="sr-only">Contenuto da cercare</label>
+                                            <input id="cerca_q" type="text" class="form-control" placeholder="Cerca" name="q">
+                                        </div>
+                                        <button id="search_btn" class="btn btn-default col-xs-5" type="submit">
+                                            <!--- class="glyphicon glyphicon-search" -->
+                                            <i  > 
+                                                <img src="<?= $home ?>/img/lupa.png"/>
+                                            </i>
+                                        </button>
+                                    </form>
+                                </div>
+                                <!--fine ricerca--> 
+                                <!--lingue-->
+                                <div id="lingue">
+                                    <div class="row">
+                                        <!-- 
+                                        <ul><li><a href="http://www.consfortaleza.org.br/it/" title="Sito Italiano (IT)">IT</a></li><li><a href="http://www.consfortaleza.org.br/pt/" title="Sito Portoguese (pt-PT)">PT</a></li></ul>
+                                        -->
+                                        <ul>
+                                            <li><a href="http://www.consfortaleza.org.br/it/" title="Sito Italiano (IT)">Lang</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--fine lingue--> 
+                            </div>
+
+
+
+                            <div class="row"> 
+                                <!--social-->
+                                <div id="social" class="col-md-24 col-sm-19 col-xs-24">
+                                                                        <div class="social_follow"> 
+
+                                                                            </div>
+                                </div>
+                                <!--fine social-->  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div id="nav" class="navbar navbar-default col-md-24 col-xs-24" role="navigation">
+                            <div class="container-fluid"> 
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main_menu">Menù <span class="sr-only"> Toggle navigation</span> <span class="glyphicon glyphicon-align-justify"></span> </button>
+                                </div>
+                                <div class="collapse navbar-collapse" id="m_menu">
+                                    
+                                    <!---  <div class="collapse navbar-collapse" id="main_menu"> -->
+                                     <!--- 
+                                   <ul class="nav menu">
+                                            <li>
+                                                <span class="nav-header ">Il Consolato</span>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.consrecife.esteri.it/consolato_recife/it/il_consolato/" title="Chi siamo">Chi siamo</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.consrecife.esteri.it/consolato_recife/it/in_linea_con_utente/" title="Italia e Brasile">Italia e Brasile</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.consrecife.esteri.it/Consolato_Recife/it/i_servizi/servizi%20consolari" title="Passaporti e servizi">Passaporti e servizi</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.consrecife.esteri.it/consolato_recife/it/i_servizi/per_chi_si_reca_in_italia/" title="Visti">Visti</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.consrecife.esteri.it/consolato_recife/it/i_servizi/fare_affari_nel_paese/" title="Affari">Affari</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.consrecife.esteri.it/Consolato_Recife/it/comunicazioni/avvisi-dal-consolato" title="Sala stampa">Sala stampa</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.consrecife.esteri.it/Consolato_Recife/it/il_consolato/gli_uffici" title="Contatti">Contatti</a>
+                                            </li>
+                                    </ul>
+                                    -->
+                                    <nav>
+
+
+                                    <?php 
+                                        $args =array('theme_location'=>'header-menus','show_home'=>'Home');
+                                         wp_page_menu($args);
+                                    ?>
+
+                                    </nav>
+
+                                </div>
+                                <!-- fim menu header-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">  <!-- inicio sub menu-->
+                            <div id="submenunav" class="navbar navbar-default col-md-24 col-xs-24" role="navigation">
+                                <div class="container-fluid"> 
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main_menu_tag">[ Importante ] &gt;&gt; <span class="sr-only"> Toggle navigation</span> <span class="glyphicon glyphicon-align-justify"></span> </button>
+                                        <div id="titolo_aree"><h5>[ Importante ] &gt;&gt;</h5> </div>                                    </div>
+                                    <div class="collapse navbar-collapse" id="main_menu_tag">
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="http://www.consrecife.esteri.it/Consolato_Recife/il_consolato/la_rete_consolare/la-rete-consolare.html" title="La Rete Consolare">La Rete Consolare</a></li><li><a href="http://www.consrecife.esteri.it/Consolato_Recife/it/i_servizi/servizi%20consolari" title="Servizi Consolari">Servizi Consolari</a></li><li><a href="http://www.consrecife.esteri.it/consolato_recife/it/comunicazioni/informazioni-utili.html" title="Informazioni Utili">Informazioni Utili</a></li><li><a href="http://www.consrecife.esteri.it/consolato_recife/it/in_linea_con_utente/modulistica/" title="Modulistica">Modulistica</a></li><li><a href="http://www.consrecife.esteri.it/consolato_recife/it/comunicazioni/domande_frequenti" title="Domande Frequenti">Domande Frequenti</a></li><li><a href="http://www.consrecife.esteri.it/consolato_recife/resource/doc/2017/01/tabella_percezioni_-_1_trim__2017_-_aggiornata.pdf" title="Valori Percezioni Consolari">Valori Percezioni Consolari</a></li><li><a href="http://www.consrecife.esteri.it/consolato_recife/it/in_linea_con_utente/prenota_appuntamento/" title="Prenotazioni">Prenotazioni</a></li><li><a href="http://www.consrecife.esteri.it/Consolato_Recife/it" title="Home">Home</a></li>                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  <!-- fim sub menu-->
