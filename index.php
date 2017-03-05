@@ -3,43 +3,43 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it-it" lang="it-it"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         	<!--<base href="http://www.consrecife.esteri.it/Consolato_Recife/it/">--><base href=".">
 	
-	<title>Consolato - Recife</title>
+	<title> 
+                <?php carregaTitulo() ?>
+    </title>
+     <?php $home = get_template_directory_uri();?>
 	<link href="http://www.consrecife.esteri.it/Consolato_Recife/it/" rel="canonical">
-	<meta property="og:title" content="Consolato - Recife">
+	<meta property="og:title" content="Consolato - Fortaleza">
 	<meta property="og:url" content="http://www.consrecife.esteri.it/Consolato_Recife/it/">
-	<meta property="og:description" content="Consolato - Recife">
+	<meta property="og:description" content="Consolato - Fortaleza">
 	<meta property="og:type" content="website">
-	<meta property="twitter:title" content="Consolato - Recife">
+	<meta property="twitter:title" content="Consolato - Fortaleza">
 	<meta property="twitter:url" content="http://www.consrecife.esteri.it/Consolato_Recife/it/">
-	<meta property="twitter:description" content="Consolato - Recife">
+	<meta property="twitter:description" content="Consolato - Fortaleza">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta property="og:title" content="Veduta della Città di Recife">
+	<meta property="og:title" content="Veduta della Città di Fortaleza">
 	<meta property="og:url" content="http://www.consrecife.esteri.it/Consolato_Recife/it/i_servizi/servizi%20consolari/">
-	<meta property="og:description" content="Benvenuti al Nuovo Sito Web del Consolato d’Italia in Recife">
+	<meta property="og:description" content="Benvenuti al Nuovo Sito Web del Consolato d’Italia in Fortaleza">
 	<meta property="og:image" content="/Consolato_Recife/resource/img/2016/07/recife_01.jpg">
-	<meta property="twitter:title" content="Veduta della Città di Recife">
+	<meta property="twitter:title" content="Veduta della Città di Fortaleza">
 	<meta property="twitter:url" content="http://www.consrecife.esteri.it/Consolato_Recife/it/i_servizi/servizi%20consolari/">
-	<meta property="twitter:description" content="Benvenuti al Nuovo Sito Web del Consolato d’Italia in Recife">
+	<meta property="twitter:description" content="Benvenuti al Nuovo Sito Web del Consolato d’Italia in Fortaleza">
 	<meta property="twitter:image" content="/Consolato_Recife/resource/img/2016/07/recife_01.jpg">
 	<meta property="twitter:card" content="summary">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <link rel="shortcut icon" href="http://www.consrecife.esteri.it/Consolato_Recife/templates/sede/favicon.png" type="image/png">
-            <script id="twitter-wjs" src="css/widgets.js">
-            </script><script async="" src="js/analytics.js">
-            </script><script src="./Consolato - Recife_files/jquery.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-            <script src="js/mae.js"></script>
-            <script src="js/venobox.min.js"></script>
-            <link href="css/bootstrap_0.css" rel="stylesheet" type="text/css">
-            <link href="css/style_0.css" rel="stylesheet" type="text/css">        
-            <link href="css/style_base.css" rel="stylesheet" type="text/css">
-            <link href="css/print.css" rel="stylesheet" type="text/css" media="print">
-            <link href="css/venobox.css" rel="stylesheet" type="text/css">
-            <!--[if lt IE 9]> 
-            <script src="/Consolato_Recife/templates/sede/js/html5shiv.js" type="text/javascript"></script> 
-            <script src="/Consolato_Recife/templates/sede/js/respond.min.js" type="text/javascript"></script>
-            <![endif]-->
+         <script id="twitter-wjs" src="<?= $home ?>/assets/css/widgets.js">
+         </script><script async="" src="js/analytics.js">
+         </script><script src="<?= $home ?>/assets/js/jquery.js"></script>
+         <script src="<?= $home ?>/assets/js/bootstrap.min.js"></script>
+         <script src="<?= $home ?>/assets/js/mae.js"></script>
+         <script src="js/venobox.min.js"></script>
+         <link href="<?= $home ?>/assets/css/bootstrap_0.css" rel="stylesheet" type="text/css">
+         <link href="<?= $home ?>/assets/css/style_0.css" rel="stylesheet" type="text/css">        
+         <link href="<?= $home ?>/assets/css/style_base.css" rel="stylesheet" type="text/css">
+         <link href="<?= $home ?>/assets/css/print.css" rel="stylesheet" type="text/css" media="print">
+         <link href="<?= $home ?>/assets/css/venobox.css" rel="stylesheet" type="text/css">
+            
 
     </head>
     <body dir="ltr">
