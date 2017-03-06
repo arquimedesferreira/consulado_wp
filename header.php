@@ -38,28 +38,22 @@
          <script src="<?= $home ?>/assets/js/bootstrap.min.js"></script>
          <script src="<?= $home ?>/assets/js/mae.js"></script>
          <script src="<?= $home ?>/assets/js/venobox.min.js"></script>
-         <link href="<?= $home ?>/assets/css/menu.css" rel="stylesheet" type="text/css">
          <link href="<?= $home ?>/assets/css/style_0.css" rel="stylesheet" type="text/css">        
          <link href="<?= $home ?>/assets/css/style_base.css" rel="stylesheet" type="text/css">
          <link href="<?= $home ?>/assets/css/print.css" rel="stylesheet" type="text/css" media="print">
          <link href="<?= $home ?>/assets/css/venobox.css" rel="stylesheet" type="text/css">
     <?php wp_head();?>
 
-
-
-
     </head>
     <body dir="ltr">
         <div id="testata_esteri">
             <div class="container"> 
                 <div id="logo_ministero" class="col-md-12 col-sm-8 col-xs-24" role="banner">
-
                     <h1> 
 
                         <p id="logo_farnesina">Farnesina</p>
                         <p id="riga_1_farnesina">Ministero degli Affari Esteri<br>
                             e della Cooperazione Internazionale</p>
-
                     </h1>
                 </div>
             </div>
@@ -89,7 +83,7 @@
                                 <p id="nome_sede" class="nome_iic">Fortaleza (Ceará)</p> 
                            
                             </a>
-                        </div>
+                        </div><!-- end logo_sede-->
                         
                         <div id="boxUtility">
                             <div class="row">
@@ -133,18 +127,17 @@
                             </div>
 
 
-
                             <div class="row"> 
                                 <!--social-->
                                 <div id="social" class="col-md-24 col-sm-19 col-xs-24">
-                                                                        <div class="social_follow"> 
-
-                                                                            </div>
+                                     <div class="social_follow"> 
+                                        
+                                     </div>
                                 </div>
                                 <!--fine social-->  
                             </div>
                         </div>
-                    </div>
+                    </div><!-- end row-->
 
                     <div class="row">
                         <div id="nav" class="navbar navbar-default col-md-24 col-xs-24" role="navigation">
@@ -152,52 +145,48 @@
                                 <div class="navbar-header">
                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main_menu">Menù <span class="sr-only"> Toggle navigation</span> <span class="glyphicon glyphicon-align-justify"></span> </button>
                                 </div>
-                                <div class="collapse navbar-collapse" id="m_menu">
+                                <div class="collapse navbar-collapse" id="main_menu">
                                     
-                                    <!---  <div class="collapse navbar-collapse" id="main_menu"> -->
-                                     <!--- 
-                                   <ul class="nav menu">
-                                            <li>
-                                                <span class="nav-header ">Il Consolato</span>
-                                            </li>
-                                            <li>
-                                                <a href="http://www.consrecife.esteri.it/consolato_recife/it/il_consolato/" title="Chi siamo">Chi siamo</a>
-                                            </li>
-                                            <li>
-                                                <a href="http://www.consrecife.esteri.it/consolato_recife/it/in_linea_con_utente/" title="Italia e Brasile">Italia e Brasile</a>
-                                            </li>
-                                            <li>
-                                                <a href="http://www.consrecife.esteri.it/Consolato_Recife/it/i_servizi/servizi%20consolari" title="Passaporti e servizi">Passaporti e servizi</a>
-                                            </li>
-                                            <li>
-                                                <a href="http://www.consrecife.esteri.it/consolato_recife/it/i_servizi/per_chi_si_reca_in_italia/" title="Visti">Visti</a>
-                                            </li>
-                                            <li>
-                                                <a href="http://www.consrecife.esteri.it/consolato_recife/it/i_servizi/fare_affari_nel_paese/" title="Affari">Affari</a>
-                                            </li>
-                                            <li>
-                                                <a href="http://www.consrecife.esteri.it/Consolato_Recife/it/comunicazioni/avvisi-dal-consolato" title="Sala stampa">Sala stampa</a>
-                                            </li>
-                                            <li>
-                                                <a href="http://www.consrecife.esteri.it/Consolato_Recife/it/il_consolato/gli_uffici" title="Contatti">Contatti</a>
-                                            </li>
-                                    </ul>
-                                    -->
-                                    <nav>
-
 
                                     <?php 
-                                        $args =array('theme_location'=>'header-menus','show_home'=>'Home');
-                                         wp_page_menu($args);
+                                        //$args =array(
+                                        //    'theme_location'=>'header-menus',
+                                        //    'show_home'=>'Home',
+                                        //    'menu_class'  => 'menu');
+                                        //$args = array(
+                                        //                'depth'       => 0,
+                                        //                'sort_column' => 'menu_order, post_title',
+                                        //                'menu_class'  => 'menu',
+                                        //                'include'     => '',
+                                        //                'exclude'     => '',
+                                        //                'echo'        => true,
+                                        //                'show_home'   => true,
+                                        //                'link_before' => '',
+                                        //                'link_after'  => '',
+                                        //                'page_item'  => 'nav'
+                                        //            );
+                                         //wp_page_menu($args);
+                                         //wp_nav_menu($args);
+                                         //wp_nav_menu( array( 
+                                         //    'theme_location' => 'header-menu',
+                                         //    'container_class' => 'my_extra_menu_class',
+                                         //    'menu_class'=>'nav' ) );
+                                         wp_nav_menu(array(
+                                             'menu' => 'Home',
+                                             'container' => 'nav', 
+                                             'menu_class' => 'nav menu'
+                                             
+                                             )); 
+                                             //'container_class' => 'class-da-nav'
                                     ?>
 
-                                    </nav>
+                                   
 
                                 </div>
                                 <!-- fim menu header-->
                             </div>
                         </div>
-                    </div>
+                    </div><!-- end row menu header-->
 
                     <div class="row">  <!-- inicio sub menu-->
                             <div id="submenunav" class="navbar navbar-default col-md-24 col-xs-24" role="navigation">

@@ -39,53 +39,71 @@
     </div>
     <div class="col-md-6 sidebar">
         <div class="row">
-            <div class="col-xs-24"><p class="titolobanner background_blu">Consolato Recife</p><div class="sidebox"><div class="capo-missione"><a href="https://www.google.com.br/maps/place/Consulado+da+It%C3%A1lia+no+Recife/@-8.1096788,-34.8943651,17z/data=!3m1!4b1!4m5!3m4!1s0x7ab1f09b98ed0e9:0xdb6734e8acfa51f1!8m2!3d-8.1096788!4d-34.8921764" title="Consolato Recife" class="foto_capomissione"><img src="./Consolato - Recife_files/consulado.jpg" title="" alt="Consolato Recife" class="img_capomissione"></a><p class="nome_capomissione">Indirizzo: Av. Engº Domingos Ferreira, 2222 - 2º andar - Boa Viagem - 51020-030 Recife - (PE) Brasile</p></div></div></div>            
+            <div class="col-xs-24">
+                <p class="titolobanner background_blu">Consolato Recife</p>
+                    <div class="sidebox">
+                        <div class="capo-missione">
+                            <a href="https://www.google.com.br/maps/place/Consulado+da+It%C3%A1lia+no+Recife/@-8.1096788,-34.8943651,17z/data=!3m1!4b1!4m5!3m4!1s0x7ab1f09b98ed0e9:0xdb6734e8acfa51f1!8m2!3d-8.1096788!4d-34.8921764" title="Consolato Recife" class="foto_capomissione"><img src="./Consolato - Recife_files/consulado.jpg" title="" alt="Consolato Recife" class="img_capomissione"></a><p class="nome_capomissione">Indirizzo: Av. Engº Domingos Ferreira, 2222 - 2º andar - Boa Viagem - 51020-030 Recife - (PE) Brasile</p>
+                        </div>
+                    </div>
+            </div>            
          <!--   <div class="titolobanner contatti"></div>
             <div class="sidebox">            
                         </div> -->
 
 
              <div class="inizio col-md-24 col-sm-12 col-xs-24">
-                                            <p class="titolobanner">Clicca sulla mappa</p>
-                                        <div class="sidebox    banner">
-
-                        <div class="row">
-                            <div class="col-lg-12 col-sm-24 bloc_height"><a href="https://www.google.com.br/maps/place/Consulado+da+It%C3%A1lia+no+Recife/@-8.1092486,-34.8926646,18z/data=!4m5!3m4!1s0x7ab1f09b98ed0e9:0xdb6734e8acfa51f1!8m2!3d-8.1096788!4d-34.8921764" title="Clicca sulla mappa"><img src="./Consolato - Recife_files/localizzazione.jpg" title="" alt="Clicca sulla mappa"></a></div><div class="col-lg-12 col-sm-24"><a href="https://www.google.com.br/maps/place/Consulado+da+It%C3%A1lia+no+Recife/@-8.1092486,-34.8926646,18z/data=!4m5!3m4!1s0x7ab1f09b98ed0e9:0xdb6734e8acfa51f1!8m2!3d-8.1096788!4d-34.8921764" title="Clicca sulla mappa">Localizzazione del Consolato d'Italia in Recife</a></div>                        </div>
-                    </div>                   
-                    </div> <div class="inizio col-md-24 col-sm-12 col-xs-24">
-                                            <p class="titolobanner background_blu">EMERGENZA</p>
-                                        <div class="sidebox    banner">
-
-                        <div class="row">
+                    <p class="titolobanner">Clicca sulla mappa</p>
+                       <div class="sidebox    banner">
+                            <div class="row">
+                                <div class="col-lg-12 col-sm-24 bloc_height">
+                                    <a href="https://www.google.com.br/maps/place/Consulado+da+It%C3%A1lia+no+Recife/@-8.1092486,-34.8926646,18z/data=!4m5!3m4!1s0x7ab1f09b98ed0e9:0xdb6734e8acfa51f1!8m2!3d-8.1096788!4d-34.8921764" title="Clicca sulla mappa"><img src="./Consolato - Recife_files/localizzazione.jpg" title="" alt="Clicca sulla mappa"></a></div><div class="col-lg-12 col-sm-24"><a href="https://www.google.com.br/maps/place/Consulado+da+It%C3%A1lia+no+Recife/@-8.1092486,-34.8926646,18z/data=!4m5!3m4!1s0x7ab1f09b98ed0e9:0xdb6734e8acfa51f1!8m2!3d-8.1096788!4d-34.8921764" title="Clicca sulla mappa">Localizzazione del Consolato d'Italia in Recife</a></div>                        </div>
+                                </div>                   
+                        </div>
+             </div>
+            <div class="inizio col-md-24 col-sm-12 col-xs-24">
+                    <p class="titolobanner background_blu">EMERGENZA</p>
+                       <div class="sidebox    banner">
+                         <div class="row">
                             <div class="col-xs-24">Il "Telefono di Emergenza" può essere chiamato soltanto nei casi di cittadini ITALIANI in situazioni di PERICOLO: +55(81) 99969-1661 (Attenzione: Questo numero non fornisce informazioni a riguartdo di cittadinanza, passaporti, visti o altri servizi consolari)</div>                        </div>
-                    </div>                   
-                    </div><div class="clearfix">&nbsp;</div> <div class="inizio col-md-24 col-sm-12 col-xs-24">
-                                            <p class="titolobanner background_blu">Contatti</p>
-                                        <div class="sidebox    banner">
-
-                        <div class="row">
-                            <div class="col-xs-24">Centralino: +55(81) 3466-4200 Per motivi organizzativi rispondiamo prevalentemente dalle 12:00 alle 13:00. Vi consigliamo di scrivere alla nostra e-mail:</div>                        </div>
-                    </div>                   
-                    </div> <div class="inizio col-md-24 col-sm-12 col-xs-24">
-                                            <p class="titolobanner">Contatto E-mail</p>
-                                        <div class="sidebox    banner">
-
-                        <div class="row">
-                            <div class="col-lg-12 col-sm-24 bloc_height"><a href="mailto:consolato.recife@esteri.it" title="Contatto E-mail"><img src="./Consolato - Recife_files/e-mail_0.jpg" title="consolato.recife@esteri.it" alt="Contatto E-mail"></a></div><div class="col-lg-12 col-sm-24"><a href="mailto:consolato.recife@esteri.it" title="Contatto E-mail">consolato.recife@esteri.it Le vostre e-mail verranno smistate immediatamente ai nostri uffici</a></div>                        </div>
-                    </div>                   
-                    </div><div class="clearfix">&nbsp;</div> <div class="inizio col-md-24 col-sm-12 col-xs-24">
-                                        <div class="sidebox   sidebox-border banner">
-
-                        <div class="row">
-                            <div class="col-xs-24 bloc_height"><a href="mailto:consolato.recife@esteri.it" title=""><img src="./Consolato - Recife_files/consolato.jpg" title="consolato.recife@esteri.it" alt=""></a></div>                        </div>
-                    </div>                   
-                    </div>                   
-                    </div>        </div>
-    </div>
-</div>
-
+                         </div>                   
+                        </div>
+                
+                    <div class="clearfix">&nbsp;
+                        <h1> Em Branco</h1>
+             </div> 
+             <div class="inizio col-md-24 col-sm-12 col-xs-24">
+                    <p class="titolobanner background_blu">Contatti</p>
+                          <div class="sidebox    banner">
+                              <div class="row">
+                                  <div class="col-xs-24">Centralino: +55(81) 3466-4200 Per motivi organizzativi rispondiamo prevalentemente dalle 12:00 alle 13:00. Vi consigliamo di scrivere alla nostra e-mail:
+                              </div>
+                          </div>
+            </div>                   
+           
+             <div class="inizio col-md-24 col-sm-12 col-xs-24">
+                     <p class="titolobanner">Contatto E-mail</p>
+                          <div class="sidebox    banner">
+                              <div class="row">
+                                   <div class="col-lg-12 col-sm-24 bloc_height">
+                                       <a href="mailto:consolato.recife@esteri.it" title="Contatto E-mail"><img src="./Consolato - Recife_files/e-mail_0.jpg" title="consolato.recife@esteri.it" alt="Contatto E-mail"></a></div><div class="col-lg-12 col-sm-24"><a href="mailto:consolato.recife@esteri.it" title="Contatto E-mail">consolato.recife@esteri.it Le vostre e-mail verranno smistate immediatamente ai nostri uffici</a>
+                                   </div>
+                               </div>
+                            </div>                   
+                        <div class="clearfix">&nbsp;</div>
             </div>
-        </div>
+             
+            <div class="inizio col-md-24 col-sm-12 col-xs-24">
+                  <div class="sidebox   sidebox-border banner">
+                       <div class="row">
+                           <div class="col-xs-24 bloc_height"><a href="mailto:consolato.recife@esteri.it" title=""><img src="./Consolato - Recife_files/consolato.jpg" title="consolato.recife@esteri.it" alt=""></a>
+                       </div>
+                  </div>
+            </div>                   
+         </div>                   
+    </div>
+</div><!-- end homepage-->
+
         <!--fine container--> 
 
         <!--inizio footer-->

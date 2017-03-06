@@ -1,6 +1,7 @@
 <?php
 
 add_theme_support( 'post-thumbnails' );
+add_theme_support('menus');
 
 
 function mostrar_post_item(){
@@ -79,11 +80,11 @@ function carregaTitulo(){
 }
 
 
-function registrar_menu_header(){
-   register_nav_menu( 'heder-menu','main-menu' );
-}
-
-add_action('init','registrar_menu_header');
+//function registrar_menu_header(){
+//   register_nav_menu( 'header-menu','main-menu' );
+//}
+//
+//add_action('init','registrar_menu_header');
 
 function registra_tax_categoria(){
     $labels=array(
