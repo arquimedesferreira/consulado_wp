@@ -191,12 +191,36 @@
                     <div class="row">  <!-- inicio sub menu-->
                             <div id="submenunav" class="navbar navbar-default col-md-24 col-xs-24" role="navigation">
                                 <div class="container-fluid"> 
+
+
+                                
                                     <div class="navbar-header">
                                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main_menu_tag">[ Importante ] &gt;&gt; <span class="sr-only"> Toggle navigation</span> <span class="glyphicon glyphicon-align-justify"></span> </button>
                                         <div id="titolo_aree"><h5>[ Importante ] &gt;&gt;</h5> </div>                                    </div>
                                     <div class="collapse navbar-collapse" id="main_menu_tag">
+                                       
+                                       <?php
+                                         wp_nav_menu(array(
+                                             'menu' => 'SubMenu',
+                                             'container' => 'nav', 
+                                             'menu_class' => 'nav navbar-nav'
+                                             
+                                             )); 
+
+                                         ?>
+                                       
+                                       <!-- 
                                         <ul class="nav navbar-nav">
-                                            <li><a href="http://www.consrecife.esteri.it/Consolato_Recife/il_consolato/la_rete_consolare/la-rete-consolare.html" title="La Rete Consolare">La Rete Consolare</a></li><li><a href="http://www.consrecife.esteri.it/Consolato_Recife/it/i_servizi/servizi%20consolari" title="Servizi Consolari">Servizi Consolari</a></li><li><a href="http://www.consrecife.esteri.it/consolato_recife/it/comunicazioni/informazioni-utili.html" title="Informazioni Utili">Informazioni Utili</a></li><li><a href="http://www.consrecife.esteri.it/consolato_recife/it/in_linea_con_utente/modulistica/" title="Modulistica">Modulistica</a></li><li><a href="http://www.consrecife.esteri.it/consolato_recife/it/comunicazioni/domande_frequenti" title="Domande Frequenti">Domande Frequenti</a></li><li><a href="http://www.consrecife.esteri.it/consolato_recife/resource/doc/2017/01/tabella_percezioni_-_1_trim__2017_-_aggiornata.pdf" title="Valori Percezioni Consolari">Valori Percezioni Consolari</a></li><li><a href="http://www.consrecife.esteri.it/consolato_recife/it/in_linea_con_utente/prenota_appuntamento/" title="Prenotazioni">Prenotazioni</a></li><li><a href="http://www.consrecife.esteri.it/Consolato_Recife/it" title="Home">Home</a></li>                                        </ul>
+                                            <li><a href="http://www.consrecife.esteri.it/Consolato_Recife/il_consolato/la_rete_consolare/la-rete-consolare.html" title="La Rete Consolare">La Rete Consolare</a></li>
+                                            <li><a href="http://www.consrecife.esteri.it/Consolato_Recife/it/i_servizi/servizi%20consolari" title="Servizi Consolari">Servizi Consolari</a></li>
+                                            <li><a href="http://www.consrecife.esteri.it/consolato_recife/it/comunicazioni/informazioni-utili.html" title="Informazioni Utili">Informazioni Utili</a></li>
+                                            <li><a href="http://www.consrecife.esteri.it/consolato_recife/it/in_linea_con_utente/modulistica/" title="Modulistica">Modulistica</a></li>
+                                            <li><a href="http://www.consrecife.esteri.it/consolato_recife/it/comunicazioni/domande_frequenti" title="Domande Frequenti">Domande Frequenti</a></li>
+                                            <li><a href="http://www.consrecife.esteri.it/consolato_recife/resource/doc/2017/01/tabella_percezioni_-_1_trim__2017_-_aggiornata.pdf" title="Valori Percezioni Consolari">Valori Percezioni Consolari</a></li>
+                                            <li><a href="http://www.consrecife.esteri.it/consolato_recife/it/in_linea_con_utente/prenota_appuntamento/" title="Prenotazioni">Prenotazioni</a></li>
+                                            <li><a href="http://www.consrecife.esteri.it/Consolato_Recife/it" title="Home">Home</a></li>
+                                        </ul>
+                                        -->
                                     </div>
                                 </div>
                             </div>

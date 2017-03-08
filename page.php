@@ -1,5 +1,5 @@
 <?php get_header();?>
-
+<!--page init -->
 <?php 
 if ( have_posts() ) {
 	while ( have_posts() ) {
@@ -10,6 +10,7 @@ if ( have_posts() ) {
 
 	<?php } // end while
 } // end if?>
+<!--page fim -->
 
 
 <?php get_footer();?>
