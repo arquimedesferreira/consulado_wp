@@ -1,4 +1,5 @@
 <?php get_header();?>
+<?php $home_index = get_template_directory_uri();?>
                     <div class="row"> 
                         
                     </div>
@@ -17,16 +18,17 @@
                         <div class="hp_article">
                             <div class="hp_item">
                                 <div class="fotone_height">
-                                   <a href="http://www.consrecife.esteri.it/Consolato_Recife/it/i_servizi/servizi%20consolari/" title="Veduta della Città di Recife">
-                                     <img src="img/recife_01.jpg" title="Recife" alt="Veduta della Città di Recife" class="img-responsive">
+                                   <a href="#" title="Veduta della Città di Fortaleza">
+                                     <img src="<?= $home_index ?>/img/fachada.png" title="Fortaleza" alt="Veduta della Città di Fortaleza" class="img-responsive">
                                    </a>
                                  </div>
                                 <div class="hp_content">
                                     <span class="hp_titolo">
-                                       <a href="http://www.consrecife.esteri.it/Consolato_Recife/it/i_servizi/servizi%20consolari/" title="Veduta della Città di Recife">
-                                             Veduta della Città di Recife                                                                                        </a>
+                                       <a href="#" title="Veduta della Città di Fortaleza">
+                                             Veduta della Città di Fortaleza 
+                                       </a>
                                     </span>
-                                    <span class="hp_testo">Benvenuti al Nuovo Sito Web del Consolato d’Italia in Recife</span>
+                                    <span class="hp_testo">Benvenuti al Nuovo Sito Web del Consolato d’Italia in Fortaleza</span>
                                 </div>
                             </div>
                         </div>
@@ -40,10 +42,18 @@
     <div class="col-md-6 sidebar">
         <div class="row">
             <div class="col-xs-24">
-                <p class="titolobanner background_blu">Consolato Recife</p>
+                <p class="titolobanner background_blu">Consolato Fortaleza</p>
                     <div class="sidebox">
                         <div class="capo-missione">
-                            <a href="https://www.google.com.br/maps/place/Consulado+da+It%C3%A1lia+no+Recife/@-8.1096788,-34.8943651,17z/data=!3m1!4b1!4m5!3m4!1s0x7ab1f09b98ed0e9:0xdb6734e8acfa51f1!8m2!3d-8.1096788!4d-34.8921764" title="Consolato Recife" class="foto_capomissione"><img src="./Consolato - Recife_files/consulado.jpg" title="" alt="Consolato Recife" class="img_capomissione"></a><p class="nome_capomissione">Indirizzo: Av. Engº Domingos Ferreira, 2222 - 2º andar - Boa Viagem - 51020-030 Recife - (PE) Brasile</p>
+                            <a href="#" 
+                               title="Consolato Fortaleza" 
+                               class="foto_capomissione">
+                                  <img src="<?= $home_indexs?>/img/fachada.png" 
+                                       title="" 
+                                       alt="Consolato Fortaleza" 
+                                       class="img_capomissione"/>
+                            </a>
+                            <p class="nome_capomissione">Indirizzo: Rua Miguel Dibe, 80 - Conjunto Washington Soares, Fortaleza - CE Brasile</p>
                         </div>
                     </div>
             </div>            
@@ -57,17 +67,25 @@
                        <div class="sidebox    banner">
                             <div class="row">
                                 <div class="col-lg-12 col-sm-24 bloc_height">
-                                    <a href="https://www.google.com.br/maps/place/Consulado+da+It%C3%A1lia+no+Recife/@-8.1092486,-34.8926646,18z/data=!4m5!3m4!1s0x7ab1f09b98ed0e9:0xdb6734e8acfa51f1!8m2!3d-8.1096788!4d-34.8921764" title="Clicca sulla mappa"><img src="./Consolato - Recife_files/localizzazione.jpg" title="" alt="Clicca sulla mappa"></a></div><div class="col-lg-12 col-sm-24"><a href="https://www.google.com.br/maps/place/Consulado+da+It%C3%A1lia+no+Recife/@-8.1092486,-34.8926646,18z/data=!4m5!3m4!1s0x7ab1f09b98ed0e9:0xdb6734e8acfa51f1!8m2!3d-8.1096788!4d-34.8921764" title="Clicca sulla mappa">Localizzazione del Consolato d'Italia in Recife</a></div>                        </div>
-                                </div>                   
-                        </div>
+                                    <a href="#" title="" alt="Clicca sulla mappa"></a>
+                                </div>
+                                <div class="col-lg-12 col-sm-24">
+                                <a href="#" 
+                                title="Clicca sulla mappa">Localizzazione del Consolato d'Italia in recife</a>
+                                </div>                        
+                            </div>
+                                                   
+                       </div>
              </div>
             <div class="inizio col-md-24 col-sm-12 col-xs-24">
                     <p class="titolobanner background_blu">EMERGENZA</p>
                        <div class="sidebox    banner">
                          <div class="row">
-                            <div class="col-xs-24">Il "Telefono di Emergenza" può essere chiamato soltanto nei casi di cittadini ITALIANI in situazioni di PERICOLO: +55(81) 99969-1661 (Attenzione: Questo numero non fornisce informazioni a riguartdo di cittadinanza, passaporti, visti o altri servizi consolari)</div>                        </div>
-                         </div>                   
+                            <div class="col-xs-24">Il "Telefono di Emergenza" può essere chiamato soltanto nei casi di cittadini ITALIANI in situazioni di PERICOLO: +55(81) 99969-1661 (Attenzione: Questo numero non fornisce informazioni a riguartdo di cittadinanza, passaporti, visti o altri servizi consolari)
+                            </div>                        
                         </div>
+                       </div>                   
+                     </div>
                 
                     <div class="clearfix">&nbsp;
                         <h1> Em Branco</h1>

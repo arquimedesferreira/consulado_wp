@@ -62,7 +62,7 @@
         <div id="up">
             <div class="container">     
                 <div class="flag">
-                    <img src="<?=$home?>/img/flag_flag.svg" alt="consolato_recife">
+                    <img src="<?=$home?>/img/flag_flag.svg" alt="Italia Fortaleza">
                 </div>
             </div>
         </div>
@@ -195,8 +195,12 @@
 
                                 
                                     <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main_menu_tag">[ Importante ] &gt;&gt; <span class="sr-only"> Toggle navigation</span> <span class="glyphicon glyphicon-align-justify"></span> </button>
-                                        <div id="titolo_aree"><h5>[ Importante ] &gt;&gt;</h5> </div>                                    </div>
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main_menu_tag">[ Importante ] &gt;&gt; 
+                                        <span class="sr-only"> Toggle navigation</span> <span class="glyphicon glyphicon-align-justify"></span>
+                                         </button>
+                                        <div id="titolo_aree"><h5>[ Importante ] &gt;&gt;</h5>
+                                         </div>                                   
+                                     </div>
                                     <div class="collapse navbar-collapse" id="main_menu_tag">
                                        
                                        <?php
