@@ -1,35 +1,32 @@
 <?php get_header();?>
 <?php $home_index = get_template_directory_uri();?>
-                    <div class="row"> 
-                        
-                    </div>
+                    
                 </div>
             </div>
             <!--fine header--> 
-
-            <div id="main" role="main">                
-                <h1 class="sr-only">Consolato - Recife</h1>
+<div id="main" role="main">                
+        <h1 class="sr-only">Consulado - Recife</h1>
             
-<div class="row homepage">
-    <div class="col-md-18">
+    <div class="row homepage">
+        <div class="col-md-18">
                         
                  <div id="fotone" class="row">
                     <div class="col-md-24">
                         <div class="hp_article">
                             <div class="hp_item">
                                 <div class="fotone_height">
-                                   <a href="#" title="Veduta della Città di Fortaleza">
-                                     <img src="<?= $home_index ?>/img/fachada.png" title="Fortaleza" alt="Veduta della Città di Fortaleza" class="img-responsive">
+                                   <a href="#" title="A vista da cidade de  Fortaleza">
+                                     <img src="<?=$home_index?>/img/a-cidade-de-fortaleza.jpg" title="Fortaleza" alt="A vista da cidade de  Fortaleza" class="img-responsive">
                                    </a>
-                                 </div>
+                                 </div><!--fotone_height--> 
                                 <div class="hp_content">
                                     <span class="hp_titolo">
-                                       <a href="#" title="Veduta della Città di Fortaleza">
-                                             Veduta della Città di Fortaleza 
+                                       <a href="#" title="A vista da cidade de  Fortaleza">
+                                             A vista da cidade de  Fortaleza
                                        </a>
                                     </span>
-                                    <span class="hp_testo">Benvenuti al Nuovo Sito Web del Consolato d’Italia in Fortaleza</span>
-                                </div>
+                                    <span class="hp_testo">Bem Vindo ao Consulado da Italia em  Fortaleza</span>
+                               </div><!--hp_content-->
                             </div>
                         </div>
                     </div>
@@ -38,91 +35,111 @@
                 <!-- INIZIO BLOCCO NEWS -->
         
         <!--FINE BLOCCO NEWS/-->
-    </div>
-    <div class="col-md-6 sidebar">
-        <div class="row">
-            <div class="col-xs-24">
-                <p class="titolobanner background_blu">Consolato Fortaleza</p>
-                    <div class="sidebox">
-                        <div class="capo-missione">
-                            <a href="#" 
-                               title="Consolato Fortaleza" 
-                               class="foto_capomissione">
-                                  <img src="<?= $home_indexs?>/img/fachada.png" 
-                                       title="" 
-                                       alt="Consolato Fortaleza" 
-                                       class="img_capomissione"/>
-                            </a>
-                            <p class="nome_capomissione">Indirizzo: Rua Miguel Dibe, 80 - Conjunto Washington Soares, Fortaleza - CE Brasile</p>
-                        </div>
-                    </div>
-            </div>            
-         <!--   <div class="titolobanner contatti"></div>
-            <div class="sidebox">            
-                        </div> -->
+        </div>
+    
+        <div class="col-md-6 sidebar">
+            <div class="row">
+                <div class="col-xs-24">
+                    <p class="titolobanner background_blu">Consulado Fortaleza</p>
+                        <div class="sidebox">
+                            <div class="capo-missione">
+                                <a href="https://www.google.com.br/maps/place/Vice+Consulado+da+It%C3%A1lia/@-3.7745234,-38.4855999,17z/data=!3m1!4b1!4m5!3m4!1s0x7c745f85b8b3735:0xdef1a7504fe81bfb!8m2!3d-3.7745234!4d-38.4834112" 
+                                title="Consulado Fortaleza" 
+                                class="foto_capomissione">
+                                    <img src="<?= $home_index?>/img/fachada.png" 
+                                        title="" 
+                                        alt="Consulado Fortaleza" 
+                                        class="img_capomissione"/>
+                                </a>
+                                <p class="nome_capomissione">Endereço: Rua Miguel Dibe, 80 - Conjunto Washington Soares, Fortaleza - CE Brasil</p>
+                            </div><!-- end capo-missione-->
+                        </div><!-- end sidebox-->
+                </div>            
+            <!--   <div class="titolobanner contatti"></div>
+                <div class="sidebox">            
+                            </div> -->
 
 
-             <div class="inizio col-md-24 col-sm-12 col-xs-24">
-                    <p class="titolobanner">Clicca sulla mappa</p>
-                       <div class="sidebox    banner">
-                            <div class="row">
-                                <div class="col-lg-12 col-sm-24 bloc_height">
-                                    <a href="#" title="" alt="Clicca sulla mappa"></a>
+                <div class="inizio col-md-24 col-sm-12 col-xs-24">
+                        <p class="titolobanner">Visualizar no mapa</p>
+                        <div class="sidebox    banner">
+                                <div class="row">
+                                    
+                                        <div class="col-lg-12 col-sm-24 bloc_height">
+                                            <a href="https://www.google.com.br/maps/place/Vice+Consulado+da+It%C3%A1lia/@-3.7745234,-38.4855999,17z/data=!3m1!4b1!4m5!3m4!1s0x7c745f85b8b3735:0xdef1a7504fe81bfb!8m2!3d-3.7745234!4d-38.483411" title="" alt="Clicca sulla mappa">
+                                                <img src="<?= $home_index?>/img/mapa.png" title="consolato.recife@esteri.it" alt="Contatto E-mail">
+                                            </a>
+                                        </div>
+                                    
+                                    <div class="col-lg-12 col-sm-24">
+                                    <a href="https://www.google.com.br/maps/place/Vice+Consulado+da+It%C3%A1lia/@-3.7745234,-38.4855999,17z/data=!3m1!4b1!4m5!3m4!1s0x7c745f85b8b3735:0xdef1a7504fe81bfb!8m2!3d-3.7745234!4d-38.483411" 
+                                    title="Clicca sulla mappa">Localização do consulado em Fortaleza</a>
+                                    </div>                        
                                 </div>
-                                <div class="col-lg-12 col-sm-24">
-                                <a href="#" 
-                                title="Clicca sulla mappa">Localizzazione del Consolato d'Italia in recife</a>
+                                                    
+                        </div>
+                </div>
+                <div class="inizio col-md-24 col-sm-12 col-xs-24">
+                        <p class="titolobanner background_blu">EMERGÊNCIA</p>
+                        <div class="sidebox    banner">
+                            <div class="row">
+                                <div class="col-xs-24">
+                                    O "Telefone de Emergência" pode ser chamado somente em caso de ITALIANOS em situações de PERIGO: +55(81)99969-1661
+                                    (Atenção: Este telefone não fornece informações a respeito de cidadania, passaportes, vistos ou outros serviços consulares)
                                 </div>                        
                             </div>
-                                                   
-                       </div>
-             </div>
-            <div class="inizio col-md-24 col-sm-12 col-xs-24">
-                    <p class="titolobanner background_blu">EMERGENZA</p>
-                       <div class="sidebox    banner">
-                         <div class="row">
-                            <div class="col-xs-24">Il "Telefono di Emergenza" può essere chiamato soltanto nei casi di cittadini ITALIANI in situazioni di PERICOLO: +55(81) 99969-1661 (Attenzione: Questo numero non fornisce informazioni a riguartdo di cittadinanza, passaporti, visti o altri servizi consolari)
-                            </div>                        
+                        </div>                   
                         </div>
-                       </div>                   
-                     </div>
+                    
+                        <div class="clearfix"> &nbsp; </div>
+                        
+                </div> 
+                <div class="inizio col-md-24 col-sm-12 col-xs-24">
+                        <p class="titolobanner background_blu">Contato</p>
+                            <div class="sidebox    banner">
+                                <div class="row">
+                                    <div class="col-xs-24">Central de telefone PBX: +55(85) 3466-4200 Em razão de motivos organizativos atendemos principalmente entre as 12:00 e as 13:00 horas. 
+                                    Aconselhamos que escrevam para o nosso contato e-mail:
+                                </div>
+                            </div>
+                </div>                   
+            
+                <div class="inizio col-md-24 col-sm-12 col-xs-24">
+                        <p class="titolobanner">Contato E-mail</p>
+                            <div class="sidebox    banner">
+                                <div class="row">
+                                    <div class="col-lg-12 col-sm-24 bloc_height">
+                                        <a href="mailto:consolato.recife@esteri.it" title="Contatto E-mail"><img src="<?= $home_index?>/img/e-mail_0.jpg" title="consolato.recife@esteri.it" alt="Contatto E-mail"></a></div><div class="col-lg-12 col-sm-24"><a href="mailto:consolato.recife@esteri.it" title="Contatto E-mail">consolato.fortaleza@consfortaleza.com.br Le vostre e-mail verranno smistate immediatamente ai nostri uffici</a>
+                                    </div>
+                                </div>
+                                </div>                   
+                            <div class="clearfix">&nbsp;</div>
+                </div>
                 
-                    <div class="clearfix">&nbsp;
-                        <h1> Em Branco</h1>
-             </div> 
-             <div class="inizio col-md-24 col-sm-12 col-xs-24">
-                    <p class="titolobanner background_blu">Contatti</p>
-                          <div class="sidebox    banner">
-                              <div class="row">
-                                  <div class="col-xs-24">Centralino: +55(81) 3466-4200 Per motivi organizzativi rispondiamo prevalentemente dalle 12:00 alle 13:00. Vi consigliamo di scrivere alla nostra e-mail:
-                              </div>
-                          </div>
+                <div class="inizio col-md-24 col-sm-12 col-xs-24">
+                    <div class="sidebox   sidebox-border banner">
+                        <div class="row">
+                            <div class="col-xs-24 bloc_height">
+                                <a href="mailto:consolato.recife@esteri.it" title="">
+                                    <img src="<?= $home_index?>/img/fachada.png" title="consolato.recife@esteri.it" alt="">
+                                </a>
+                        </div>
+                    </div>
+                </div>                   
             </div>                   
-           
-             <div class="inizio col-md-24 col-sm-12 col-xs-24">
-                     <p class="titolobanner">Contatto E-mail</p>
-                          <div class="sidebox    banner">
-                              <div class="row">
-                                   <div class="col-lg-12 col-sm-24 bloc_height">
-                                       <a href="mailto:consolato.recife@esteri.it" title="Contatto E-mail"><img src="./Consolato - Recife_files/e-mail_0.jpg" title="consolato.recife@esteri.it" alt="Contatto E-mail"></a></div><div class="col-lg-12 col-sm-24"><a href="mailto:consolato.recife@esteri.it" title="Contatto E-mail">consolato.recife@esteri.it Le vostre e-mail verranno smistate immediatamente ai nostri uffici</a>
-                                   </div>
-                               </div>
-                            </div>                   
-                        <div class="clearfix">&nbsp;</div>
-            </div>
-             
-            <div class="inizio col-md-24 col-sm-12 col-xs-24">
-                  <div class="sidebox   sidebox-border banner">
-                       <div class="row">
-                           <div class="col-xs-24 bloc_height"><a href="mailto:consolato.recife@esteri.it" title=""><img src="./Consolato - Recife_files/consolato.jpg" title="consolato.recife@esteri.it" alt=""></a>
-                       </div>
-                  </div>
-            </div>                   
-         </div>                   
-    </div>
-</div><!-- end homepage-->
+        </div>
 
-        <!--fine container--> 
+    
+
+    </div> <!--fine homepage-->
+
+
+</div><!-- end main-->
+
+
+
+
+    <!--fine container--> 
 
         <!--inizio footer-->
             <?php get_footer();?>
@@ -135,7 +152,11 @@
                     <div class="col-md-24">
                         <div id="contentinfo_sx" class="col-md-18 col-sm-18">
 
-                            <p><small>2017 © Ministero degli Affari Esteri e della Cooperazione Internazionale - <a href="http://www.esteri.it/mae/header_footer/notelegali.html/" title="Note legali">Note legali</a> - <a href="http://www.esteri.it/mae/header_footer/privacy.html" title="Privacy">Privacy</a>                                </small>
+                            <p>
+                                <small>2017 © Ministero degli Affari Esteri e della Cooperazione Internazionale -
+                                     <a href="http://www.esteri.it/mae/header_footer/notelegali.html/" title="Note legali">Note legali</a> - 
+                                     <a href="http://www.esteri.it/mae/header_footer/privacy.html" title="Privacy">Privacy</a>                                
+                                </small>
                             </p>
                         </div>
                         <div id="contentinfo_dx" class="col-md-6 col-sm-6">
@@ -146,6 +167,7 @@
             </div>
         </div>
         <!--fine content info--> 
+        
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -158,7 +180,15 @@
         </script>
     
 
-<iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="./Consolato - Recife_files/saved_resource.html">
+<iframe 
+    id="rufous-sandbox" 
+    scrolling="no" 
+    frameborder="0" 
+    allowtransparency="true" 
+    allowfullscreen="true" 
+    style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" 
+    title="Twitter analytics iframe" 
+    src="<?= $home_index?>/img/saved_resource.html">
 </iframe>
 </body>
 </html>

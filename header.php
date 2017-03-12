@@ -32,7 +32,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <link rel="shortcut icon" href="http://www.consrecife.esteri.it/Consolato_Recife/templates/sede/favicon.png" type="image/png">
          <link href="<?= $home ?>/assets/css/bootstrap_0.css" rel="stylesheet" type="text/css">
-         <script id="twitter-wjs" src="<?= $home ?>/assets/css/widgets.js"></script>
+         <script id="twitter-wjs" src="<?= $home ?>/assets/js/widgets.js"></script>
          <script async="" src="<?= $home ?>/assets/js/analytics.js"></script>
          <script src="<?= $home ?>/assets/js/jquery.js"></script>
          <script src="<?= $home ?>/assets/js/bootstrap.min.js"></script>
@@ -71,7 +71,7 @@
                 <div id="header" class="col-md-24" role="heading">
                     <div class="row">
                         <div class="col-md-2 col-sm-3 stellone">
-                            <a href="http://www.consfortaleza.org.br" title="Consolato d&#39;Italia Recife (Pernambuco)">
+                            <a href="http://www.consfortaleza.org.br" title="Consolato d&#39;Italia Fortaleza (Ceará)">
                                 <img src="<?= $home ?>/img/stellone_ministero_ok.svg" alt="Consolato d&#39;Italia Fortaleza (Ceará)">
                             </a>
                         </div>
@@ -93,7 +93,8 @@
                                       <!-- <img src="/mae/images/ZoomIn.gif" alt="Aumenta la dimensione del testo"> --> 
                                         </a> <a class="zoomout" href="javascript: ridimTesto(-1);" title="Riduci la dimensione del testo"> 
                                         <!-- <img src="/mae/images/ZoomOut.gif" alt="Riduci la dimensione del testo"> --> 
-                                        </a> </div>
+                                        </a> 
+                                    </div>
                                 </div>
                                 <!-- FINE font resize -->
                                 <!--ricerca-->
@@ -105,7 +106,7 @@
                                         </div>
                                         <button id="search_btn" class="btn btn-default col-xs-5" type="submit">
                                             <!--- class="glyphicon glyphicon-search" -->
-                                            <i  > 
+                                            <i> 
                                                 <img src="<?= $home ?>/img/lupa.png"/>
                                             </i>
                                         </button>
@@ -131,7 +132,6 @@
                                 <!--social-->
                                 <div id="social" class="col-md-24 col-sm-19 col-xs-24">
                                      <div class="social_follow"> 
-                                        
                                      </div>
                                 </div>
                                 <!--fine social-->  
@@ -143,7 +143,10 @@
                         <div id="nav" class="navbar navbar-default col-md-24 col-xs-24" role="navigation">
                             <div class="container-fluid"> 
                                 <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main_menu">Menù <span class="sr-only"> Toggle navigation</span> <span class="glyphicon glyphicon-align-justify"></span> </button>
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main_menu">Menu 
+                                        <span class="sr-only"> Toggle navigation</span> 
+                                        <span class="glyphicon glyphicon-align-justify"></span> 
+                                    </button>
                                 </div>
                                 <div class="collapse navbar-collapse" id="main_menu">
                                     
@@ -196,7 +199,9 @@
                                 
                                     <div class="navbar-header">
                                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main_menu_tag">[ Importante ] &gt;&gt; 
-                                        <span class="sr-only"> Toggle navigation</span> <span class="glyphicon glyphicon-align-justify"></span>
+                                            <span class="sr-only"> Toggle navigation</span> 
+                                            <span class="glyphicon glyphicon-align-justify">
+                                            </span>
                                          </button>
                                         <div id="titolo_aree"><h5>[ Importante ] &gt;&gt;</h5>
                                          </div>                                   
