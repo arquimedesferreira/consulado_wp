@@ -5,7 +5,7 @@
             </div>
             <!--fine header--> 
 <div id="main" role="main">                
-        <h1 class="sr-only">Consulado - Recife</h1>
+        <h1 class="sr-only">Consulado honorário de Fortaleza</h1>
             
     <div class="row homepage">
         <div class="col-md-18">
@@ -51,7 +51,7 @@
                                         alt="Consulado Fortaleza" 
                                         class="img_capomissione"/>
                                 </a>
-                                <p class="nome_capomissione">Endereço: Rua Miguel Dibe, 80 - Conjunto Washington Soares, Fortaleza - CE Brasil</p>
+                                <p class="nome_capomissione">Endereço: Rua Miguel Dibe, 80 - Bairro Washington Soares, Fortaleza - CE Brasil</p>
                             </div><!-- end capo-missione-->
                         </div><!-- end sidebox-->
                 </div>            
@@ -80,7 +80,7 @@
                         </div>
                 </div>
                 <div class="inizio col-md-24 col-sm-12 col-xs-24">
-                        <p class="titolobanner background_blu">EMERGÊNCIA</p>
+                        <p class="titolobanner background_blu">Emergência</p>
                         <div class="sidebox    banner">
                             <div class="row">
                                 <div class="col-xs-24">

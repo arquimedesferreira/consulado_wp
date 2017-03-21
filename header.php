@@ -79,8 +79,8 @@
                         <div class="logo_sede" role="banner">
                             <a href="http://www.consfortaleza.org.br" title="consolato_fortaleza">
                             <!-- -->
-                                <p id="titolo_generico">Consolato d'Italia</p>
-                                <p id="nome_sede" class="nome_iic">Fortaleza (Ceará)</p> 
+                                <p id="titolo_generico">Consulado Honorário da Italia</p>
+                                <p id="nome_sede" class="nome_iic">Fortaleza (Ceará/Piauí)</p> 
                            
                             </a>
                         </div><!-- end logo_sede-->
@@ -101,8 +101,8 @@
                                 <div id="ricerca_sito" role="search">
                                     <form class="navbar-form" role="search" action="http://www.consfortaleza.org.br/search">
                                         <div id="form_inline" class="form-group col-xs-18">
-                                            <label for="cerca_q" class="sr-only">Contenuto da cercare</label>
-                                            <input id="cerca_q" type="text" class="form-control" placeholder="Cerca" name="q">
+                                            <label for="cerca_q" class="sr-only">Conteudo da Busca</label>
+                                            <input id="cerca_q" type="text" class="form-control" placeholder="Buscar" name="q">
                                         </div>
                                         <button id="search_btn" class="btn btn-default col-xs-5" type="submit">
                                             <!--- class="glyphicon glyphicon-search" -->
@@ -120,7 +120,7 @@
                                         <ul><li><a href="http://www.consfortaleza.org.br/it/" title="Sito Italiano (IT)">IT</a></li><li><a href="http://www.consfortaleza.org.br/pt/" title="Sito Portoguese (pt-PT)">PT</a></li></ul>
                                         -->
                                         <ul>
-                                            <li><a href="http://www.consfortaleza.org.br/it/" title="Sito Italiano (IT)">Lang</a></li>
+                                            <li><a href="http://www.consfortaleza.org.br/it/" title="Sito Italiano (IT)"></a></li>
                                         </ul>
                                     </div>
                                 </div>
