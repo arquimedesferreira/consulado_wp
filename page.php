@@ -22,7 +22,7 @@
                                              'container' => 'nav', 
                                              'menu_class' => 'nav navbar-nav'  
                                              )); 
-                                         ?>
+                                 ?>
 							</div> 
 						</div>
 					</div>
@@ -50,6 +50,13 @@
 		<meta itemprop="inLanguage" content="pt-PT">
         <h1 itemprop="headline"><?php the_title();?></h1>
         <div class="sr-only" itemprop="datePublished">2016-07-04</div>
+        
+
+        <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-24">&nbsp;</div>
+                    <div class="col-md-17 col-sm-12 col-xs-24 share">&nbsp;</div>
+        </div>
+        <!--page 
         <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-24">&nbsp;</div>
                 <div class="col-md-17 col-sm-12 col-xs-24 share">		
@@ -63,7 +70,7 @@
                                         }
                                     });
                         </script>
-                        <div><!-- AddThis Button BEGIN -->
+                        <div>
                             <script type="text/javascript">
                                 var addthis_product = 'jlm-3.0';
                                 var addthis_config = {
@@ -81,11 +88,11 @@
                                             <a href="#" style="display: inline-block;" tabindex="-1" class="addthis_counter addthis_bubble_style"><a href="#" title="More" target="_blank" class="addthis_button_expanded">2</a><a class="atc_s addthis_button_compact">Share<span></span></a></a>
                                             <div class="atclear">
                                             </div>
-                                    </div><!-- AddThis Button END -->
+                                    </div>
                         </div>		
                     </div>
 	        </div>
-        </div>
+        </div>   -->
         <hr>
             <div class="sr-only" itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
                 <div itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
