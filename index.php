@@ -98,7 +98,7 @@
                         <p class="titolobanner background_blu">Contato</p>
                             <div class="sidebox    banner">
                                 <div class="row">
-                                    <div class="col-xs-24">Central de telefone PBX: +55(85) 3466-4200 Em razão de motivos organizativos atendemos principalmente entre as 12:00 e as 13:00 horas. 
+                                    <div class="col-xs-24">Central de telefone PBX: +55(85) 3273-2606 Em razão de motivos organizativos atendemos principalmente entre as 12:00 e as 13:00 horas. 
                                     Aconselhamos que escrevam para o nosso contato e-mail:
                                 </div>
                             </div>
