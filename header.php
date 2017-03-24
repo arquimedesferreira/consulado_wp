@@ -212,10 +212,8 @@
                                          wp_nav_menu(array(
                                              'menu' => 'SubMenu',
                                              'container' => 'nav', 
-                                             'menu_class' => 'nav navbar-nav'
-                                             
+                                             'menu_class' => 'nav navbar-nav'  
                                              )); 
-
                                          ?>
                                        
                                        <!-- 

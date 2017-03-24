@@ -51,7 +51,7 @@
                                         alt="Consulado Fortaleza" 
                                         class="img_capomissione"/>
                                 </a>
-                                <p class="nome_capomissione">Endereço: Rua Miguel Dibe, 80 - Bairro Washington Soares, Fortaleza - CE Brasil</p>
+                                <p class="nome_capomissione">Endereço: Rua Miguel Dibe, 80 - Washington Soares, 60811-130 Fortaleza - CE Brasil</p>
                             </div><!-- end capo-missione-->
                         </div><!-- end sidebox-->
                 </div>            
@@ -61,7 +61,7 @@
 
 
                 <div class="inizio col-md-24 col-sm-12 col-xs-24">
-                        <p class="titolobanner">Visualizar no mapa</p>
+                        <p class="titolobanner">Click no mapa</p>
                         <div class="sidebox    banner">
                                 <div class="row">
                                     
@@ -84,7 +84,7 @@
                         <div class="sidebox    banner">
                             <div class="row">
                                 <div class="col-xs-24">
-                                    O "Telefone de Emergência" pode ser chamado somente em caso de ITALIANOS em situações de PERIGO: +55(81)99969-1661
+                                    O "Telefone de Emergência" pode ser chamado somente em caso de ITALIANOS em situações de PERIGO: +55(85) 99997-8118, +55(85) 99674-6111
                                     (Atenção: Este telefone não fornece informações a respeito de cidadania, passaportes, vistos ou outros serviços consulares)
                                 </div>                        
                             </div>
@@ -109,7 +109,7 @@
                             <div class="sidebox    banner">
                                 <div class="row">
                                     <div class="col-lg-12 col-sm-24 bloc_height">
-                                        <a href="mailto:consolato.recife@esteri.it" title="Contatto E-mail"><img src="<?= $home_index?>/img/e-mail_0.jpg" title="consolato.recife@esteri.it" alt="Contatto E-mail"></a></div><div class="col-lg-12 col-sm-24"><a href="mailto:consolato.recife@esteri.it" title="Contatto E-mail">consolato.fortaleza@consfortaleza.com.br Le vostre e-mail verranno smistate immediatamente ai nostri uffici</a>
+                                        <a href="mailto:fortaleza.onorario@esteri.it" title="Contatto E-mail"><img src="<?= $home_index?>/img/e-mail_0.jpg" title="fortaleza.onorario@esteri.it" alt="Contatto E-mail"></a></div><div class="col-lg-12 col-sm-24"><a href="mailto:fortaleza.onorario@esteri.it" title="Contatto E-mail">fortaleza.onorario@esteri.it Os vossos e-mails serão redirecionadas imediatamente para os nossos escritórios competentes </a>
                                     </div>
                                 </div>
                                 </div>                   
@@ -120,8 +120,8 @@
                     <div class="sidebox   sidebox-border banner">
                         <div class="row">
                             <div class="col-xs-24 bloc_height">
-                                <a href="mailto:consolato.recife@esteri.it" title="">
-                                    <img src="<?= $home_index?>/img/fachada.png" title="consolato.recife@esteri.it" alt="">
+                                <a href="mailto:ital@consfortaleza.org.br" title="">
+                                    <img src="<?= $home_index?>/img/fachada.png" title="ital@consfortaleza.org.br" alt="">
                                 </a>
                         </div>
                     </div>

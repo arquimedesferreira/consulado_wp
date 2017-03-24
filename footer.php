@@ -34,8 +34,9 @@
                                         <li>
                                             <span class=" nav-header navbar-collapse collapse">Istituzioni</span>
                                         </li>
-                                        <li
-                                            <a href="http://www.governo.it/" title="Governo Italiano"><img src="<?=$home_footer?>/img/stellone.png" alt="Governo Italiano">
+                                       
+                                        <li>
+                                            <a href="http://europa.eu/" title="Governo Italiano"><img src="<?=$home_footer?>/img/stellone.png" alt="Governo Italiano">
                                             <span class="image-title">Governo Italiano</span> 
                                             </a>
                                         </li>
