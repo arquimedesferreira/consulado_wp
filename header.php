@@ -80,7 +80,7 @@
                             <a href="http://www.consfortaleza.org.br" title="consolato_fortaleza">
                             <!-- -->
                                 <p id="titolo_generico">Consulado Honorário da Italia</p>
-                                <p id="nome_sede" class="nome_iic">Fortaleza (Ceará/Piauí)</p> 
+                                <p id="nome_sede" class="nome_iic">-Fortaleza (Ceará/Piauí)</p> 
                            
                             </a>
                         </div><!-- end logo_sede-->
