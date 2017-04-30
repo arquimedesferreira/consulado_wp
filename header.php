@@ -80,7 +80,7 @@
                             <a href="http://www.consfortaleza.org.br" title="consolato_fortaleza">
                             <!-- -->
                                 <p id="titolo_generico">Consulado Honorário da Italia</p>
-                                <p id="nome_sede" class="nome_iic">-Fortaleza (Ceará/Piauí)</p> 
+                                <p id="nome_sede" class="nome_iic">Fortaleza (Ceará/Piauí)</p> 
                            
                             </a>
                         </div><!-- end logo_sede-->
@@ -97,9 +97,10 @@
                                     </div>
                                 </div>
                                 <!-- FINE font resize -->
-                                <!--ricerca-->
+                                <!--ricerca  <form class="navbar-form" role="search" action="http://www.consfortaleza.org.br/search">-->
                                 <div id="ricerca_sito" role="search">
-                                    <form class="navbar-form" role="search" action="http://www.consfortaleza.org.br/search">
+                                    <!-- <form class="navbar-form" role="search" action="http://www.consfortaleza.org.br/search">-->
+                                    <form class="navbar-form" role="search" >
                                         <div id="form_inline" class="form-group col-xs-18">
                                             <label for="cerca_q" class="sr-only">Conteudo da Busca</label>
                                             <input id="cerca_q" type="text" class="form-control" placeholder="Buscar" name="q">
@@ -198,13 +199,14 @@
 
                                 
                                     <div class="navbar-header">
+                                        <!-- inicio sub menu
                                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main_menu_tag">[ Importante ] &gt;&gt; 
                                             <span class="sr-only"> Toggle navigation</span> 
                                             <span class="glyphicon glyphicon-align-justify">
                                             </span>
                                          </button>
                                         <div id="titolo_aree"><h5>[ Importante ] &gt;&gt;</h5>
-                                         </div>                                   
+                                         </div>  -->                                 
                                      </div>
                                     <div class="collapse navbar-collapse" id="main_menu_tag">
                                        

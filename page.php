@@ -14,7 +14,7 @@
 								</button>
 							</div>
 							<div class="collapse navbar-collapse" id="menu_laterale">
-								<div class="testata"><a href="http://www.consrecife.esteri.it/consolato_recife/pt/il_consolato" title="O Consulado">O Consulado</a>
+								<div class="testata"><a href="http://www.consfortaleza.org.br" title="O Consulado">O Consulado</a>
 								</div>
 								 <?php
                                          wp_nav_menu(array(

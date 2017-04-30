@@ -25,7 +25,7 @@
                                              A vista da cidade de  Fortaleza
                                        </a>
                                     </span>
-                                    <span class="hp_testo">Bem Vindo ao Consulado da Italia em  Fortaleza</span>
+                                    <span class="hp_testo">Bem Vindo ao Consulado Honorário da Italia em  Fortaleza</span>
                                </div><!--hp_content-->
                             </div>
                         </div>
@@ -51,7 +51,7 @@
                                         alt="Consulado Fortaleza" 
                                         class="img_capomissione"/>
                                 </a>
-                                <p class="nome_capomissione">Endereço: Rua Miguel Dibe, 80 - Washington Soares, 60811-130 Fortaleza - CE Brasil</p>
+                                <p class="nome_capomissione">Endereço: Rua Miguel Dibe, 80 - Luciano Cavalcante, 60811-130 Fortaleza - CE Brasil</p>
                             </div><!-- end capo-missione-->
                         </div><!-- end sidebox-->
                 </div>            
@@ -84,8 +84,10 @@
                         <div class="sidebox    banner">
                             <div class="row">
                                 <div class="col-xs-24">
-                                    O "Telefone de Emergência" pode ser chamado somente em caso de ITALIANOS em situações de PERIGO: +55(85) 99997-8118, +55(85) 99674-6111
-                                    (Atenção: Este telefone não fornece informações a respeito de cidadania, passaportes, vistos ou outros serviços consulares)
+                                    O "Telefone de Emergência" pode ser chamado somente em situações de PERIGO:
+                                    <br> <strong>+55(85) 99997-8118</strong>, 
+                                    <br><strong>+55(85) 99674-6111 </strong><br>
+                                    (Atenção: Estes telefones não fornecem informações a respeito de cidadania, passaportes, vistos ou outros serviços consulares)
                                 </div>                        
                             </div>
                         </div>                   
@@ -98,8 +100,9 @@
                         <p class="titolobanner background_blu">Contato</p>
                             <div class="sidebox    banner">
                                 <div class="row">
-                                    <div class="col-xs-24">Central de telefone PBX: +55(85) 3273-2606 Em razão de motivos organizativos atendemos principalmente entre as 12:00 e as 13:00 horas. 
-                                    Aconselhamos que escrevam para o nosso contato e-mail:
+                                    <div class="col-xs-24">
+                                    Central de telefone: <br><strong>+55(85) 3273-2606</strong> 
+                                    <br>Aconselhamos que escrevam para o nosso contato e-mail:
                                 </div>
                             </div>
                 </div>                   
@@ -109,7 +112,9 @@
                             <div class="sidebox    banner">
                                 <div class="row">
                                     <div class="col-lg-12 col-sm-24 bloc_height">
-                                        <a href="mailto:fortaleza.onorario@esteri.it" title="Contatto E-mail"><img src="<?= $home_index?>/img/e-mail_0.jpg" title="fortaleza.onorario@esteri.it" alt="Contatto E-mail"></a></div><div class="col-lg-12 col-sm-24"><a href="mailto:fortaleza.onorario@esteri.it" title="Contatto E-mail">fortaleza.onorario@esteri.it Os vossos e-mails serão redirecionadas imediatamente para os nossos escritórios competentes </a>
+                                        <a href="mailto:fortaleza.onorario@esteri.it" title="Contatto E-mail">
+                                            <img src="<?= $home_index?>/img/e-mail_0.jpg" title="fortaleza.onorario@esteri.it" alt="Contatto E-mail"></a></div><div class="col-lg-12 col-sm-24"><a href="mailto:fortaleza.onorario@esteri.it" title="Contatto E-mail">
+                                                <strong>fortaleza.onorario@esteri.it</strong> <br>Os vossos e-mails serão redirecionadas imediatamente para os nossos escritórios competentes </a>
                                     </div>
                                 </div>
                                 </div>                   
@@ -120,8 +125,8 @@
                     <div class="sidebox   sidebox-border banner">
                         <div class="row">
                             <div class="col-xs-24 bloc_height">
-                                <a href="mailto:ital@consfortaleza.org.br" title="">
-                                    <img src="<?= $home_index?>/img/fachada.png" title="ital@consfortaleza.org.br" alt="">
+                                <a href="mailto:info@consfortaleza.org.br" title="">
+                                    <img src="<?= $home_index?>/img/fachada.png" title="info@consfortaleza.org.br" alt="">
                                 </a>
                         </div>
                     </div>
