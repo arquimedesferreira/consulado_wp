@@ -65,25 +65,25 @@
                                         <span class=" nav-header navbar-collapse collapse">Il Consolato</span>
                                     </li>
                                     <li>
-                                        <a href="http://www.consrecife.esteri.it/consolato_recife/it/il_consolato/" title="Chi siamo">Chi siamo</a>
+                                        <a href="http://www.consfortaleza.org.br" title="Chi siamo">Chi siamo</a>
                                     </li>
                                     <li>
-                                        <a href="http://www.consrecife.esteri.it/consolato_recife/it/in_linea_con_utente/" title="Italia e Brasile">Italia e Brasile</a>
+                                        <a href="http://www.consfortaleza.org.br" title="Italia e Brasile">Italia e Brasile</a>
                                     </li>
                                     <li>
-                                        <a href="http://www.consrecife.esteri.it/Consolato_Recife/it/i_servizi/servizi%20consolari" title="Passaporti e servizi">Passaporti e servizi</a>
+                                        <a href="http://www.consfortaleza.org.br" title="Passaporti e servizi">Passaporti e servizi</a>
                                     </li>
                                     <li>
-                                        <a href="http://www.consrecife.esteri.it/consolato_recife/it/i_servizi/per_chi_si_reca_in_italia/" title="Visti">Visti</a>
+                                        <a href="http://www.consfortaleza.org.br" title="Visti">Visti</a>
                                     </li>
                                     <li>
-                                        <a href="http://www.consrecife.esteri.it/consolato_recife/it/i_servizi/fare_affari_nel_paese/" title="Affari">Affari</a>
+                                        <a href="http://www.consfortaleza.org.br" title="Affari">Affari</a>
                                     </li>
                                     <li>
-                                        <a href="http://www.consrecife.esteri.it/Consolato_Recife/it/comunicazioni/avvisi-dal-consolato" title="Sala stampa">Sala stampa</a>
+                                        <a href="http://www.consfortaleza.org.br" title="Sala stampa">Sala stampa</a>
                                     </li>
                                     <li>
-                                        <a href="http://www.consrecife.esteri.it/Consolato_Recife/it/il_consolato/gli_uffici" title="Contatti">Contatti</a>
+                                        <a href="http://www.consfortaleza.org.br" title="Contatti">Contatti</a>
                                     </li>
                                 </ul>
 
